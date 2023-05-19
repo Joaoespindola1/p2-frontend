@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,310&display=swap" rel="stylesheet">
+    <title>Clima</title>
+<body>
+    <div class="weather-app">
+        <div class="container">
+            <h3 class="brand">O Clima</h3>
+            <div>
+                <h1 class="temp"></h1>
+                <div class="city-time">
+                    <h1 class="name"></h1>
+                    <small>
+                        <span class="time"></span>
+                        -
+                        <span class="date"></span>
+                    </small>
+                </div>
+
+                <div class="weather">
+                    <img src="img/day/113.png" alt="icon" class="icon" width="50" height="50">
+                    <span class="condition"></span>
+                </div>           
+            </div>
+        </div>
+        <div class="panel">
+            <form id="locationInput">
+                <input type="text" class="search" placeholder="Procurar localização...">
+                <button type="submit" class="submit">
+                    <i class="material-icons" style="font-size:13px">search</i>
+                </button>
+            </form>
+    
+            <ul class="cities">
+                <li class="city">Marica</li>
+                <li class="city">São Paulo</li>
+                <li class="city">Fortaleza</li>
+                <li class="city">Balneario Camboriu</li>
+            </ul>
+    
+            <ul class="details">
+                <h4>Detalhe do Clima</h4>
+                <li>
+                    <span>Nublado</span>
+                    <span class="cloud"></span>
+                </li>
+    
+                <li>
+                    <span>umidade</span>
+                    <span class="humidity"></span>
+                </li>
+    
+                <li>
+                    <span>Vento</span>
+                    <span class="wind">8km/h</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+<script src="code.js"></script>
+</body>
+</html>
