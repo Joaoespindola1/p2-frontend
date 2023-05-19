@@ -23,8 +23,6 @@ const weekday = ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sabado'
 
 //Cidade padrão quando a pagina carrega
 let cityInput = "Marica";
-var agora = new Date
-var hoje = agora.getDay()
 
 //Add evento de click pra cada cidade no painel
 
